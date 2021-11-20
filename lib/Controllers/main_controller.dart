@@ -15,7 +15,6 @@ class StudentController extends GetxController {
     }
   }
 
-  @override
   addStudent(Students student) {
     _students.add(student);
     studentsBox.add(student);
